@@ -50,7 +50,7 @@ function App() {
           <button onClick={handleStartStop} style={{ marginRight: "10px" }}>
             {isRunning ? "Pause" : "Start"}
           </button>
-          <button onClick={handleReset}>Reset</button>
+          <button onClick={handleReset}>Start Again</button>
         </div>
         <p style={{ marginTop: "20px" }}>
           {timeLeft === 0
